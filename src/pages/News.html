@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UOL News | University of Lahore</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-white">
+
+  <!-- Navbar -->
+  <nav class="bg-white dark:bg-gray-800 shadow-md fixed w-full z-10">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="../../index.html" class="flex items-center space-x-3">
+      <img src="../../assets/images/UOL-Logo-Emblem-Green-1536x1450.png" class="h-10" alt="University of Lahore Logo" />
+        <span class="text-2xl font-semibold">University of Lahore</span>
+      </a>
+      <div class="flex md:order-2 space-x-4">
+        <a href="../../Apply Now.html" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg">Apply Now</a>
+        <a href="../pages/contact.html" class="bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 text-gray-800 dark:text-white px-4 py-2 rounded-lg">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-green-600 to-blue-600 text-white text-center py-28 mt-16">
+    <h1 class="text-5xl font-bold mb-4">UOL News & Updates</h1>
+    <p class="max-w-2xl mx-auto text-lg">Stay informed with the latest happenings, research, achievements, and events at the University of Lahore.</p>
+  </section>
+
+  <!-- Featured News -->
+  <section class="max-w-6xl mx-auto py-16 px-6">
+    <h2 class="text-3xl font-bold text-center mb-10">Featured Story</h2>
+    <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden md:flex">
+      <img src="../assets/images/news-feature.jpg" alt="Featured News" class="w-full md:w-1/2 object-cover">
+      <div class="p-6 flex flex-col justify-center">
+        <h3 class="text-2xl font-semibold mb-3">UOL Launches New AI Innovation Center</h3>
+        <p class="text-gray-600 dark:text-gray-300 mb-4">
+          The University of Lahore proudly inaugurates its state-of-the-art Artificial Intelligence Innovation Center, 
+          aimed at advancing AI research and supporting student startups in technology and data science.
+        </p>
+        <a href="#" class="text-blue-600 font-semibold hover:underline">Read More →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent News -->
+  <section class="bg-gray-100 dark:bg-gray-800 py-16 px-6">
+    <h2 class="text-3xl font-bold text-center mb-12">Recent News</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+      <!-- News Card 1 -->
+      <div class="bg-white dark:bg-gray-700 rounded-xl shadow-lg overflow-hidden hover:scale-105 transition">
+        <img src="../assets/images/news1.jpg" alt="News 1" class="w-full h-48 object-cover">
+        <div class="p-5">
+          <h3 class="text-xl font-semibold mb-2">UOL Wins National Debate Championship</h3>
+          <p class="text-gray-600 dark:text-gray-300 text-sm mb-3">October 2025</p>
+          <p class="text-gray-700 dark:text-gray-400">Our talented students brought home the national trophy in this year’s inter-university debate competition.</p>
+        </div>
+      </div>
+
+      <!-- News Card 2 -->
+      <div class="bg-white dark:bg-gray-700 rounded-xl shadow-lg overflow-hidden hover:scale-105 transition">
+        <img src="../assets/images/news2.jpg" alt="News 2" class="w-full h-48 object-cover">
+        <div class="p-5">
+          <h3 class="text-xl font-semibold mb-2">UOL Hosts International Science Expo 2025</h3>
+          <p class="text-gray-600 dark:text-gray-300 text-sm mb-3">September 2025</p>
+          <p class="text-gray-700 dark:text-gray-400">Over 100 universities participated, showcasing cutting-edge innovations in green energy and robotics.</p>
+        </div>
+      </div>
+
+      <!-- News Card 3 -->
+      <div class="bg-white dark:bg-gray-700 rounded-xl shadow-lg overflow-hidden hover:scale-105 transition">
+        <img src="../assets/images/news3.jpg" alt="News 3" class="w-full h-48 object-cover">
+        <div class="p-5">
+          <h3 class="text-xl font-semibold mb-2">Scholarship Program for Fall 2025 Announced</h3>
+          <p class="text-gray-600 dark:text-gray-300 text-sm mb-3">August 2025</p>
+          <p class="text-gray-700 dark:text-gray-400">UOL introduces new merit and need-based scholarships to support talented and deserving students.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="max-w-4xl mx-auto py-16 px-6 text-center">
+    <h2 class="text-3xl font-bold mb-4">Subscribe to Our Newsletter</h2>
+    <p class="text-gray-600 dark:text-gray-300 mb-6">Get the latest UOL news, event updates, and research highlights delivered to your inbox.</p>
+
+    <form class="flex flex-col sm:flex-row justify-center gap-4">
+      <input type="email" placeholder="Enter your email"
+        class="px-4 py-3 rounded-lg w-full sm:w-2/3 text-gray-800 border border-gray-300 focus:ring-2 focus:ring-blue-600" required>
+      <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-6 mt-10">
+    <p>Powered by Nutella © 2025. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+</html>

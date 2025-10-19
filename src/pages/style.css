@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Optional custom styling */
+body {
+  scroll-behavior: smooth;
+}
+
+nav a {
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #3b82f6;
+}
+
+footer {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+.myfont{
+  font-family: cursive;
+}

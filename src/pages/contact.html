@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | UOL</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-white">
+
+  <!-- Navbar -->
+  <nav class="bg-white dark:bg-gray-800 shadow-md fixed w-full z-10">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="./index.html" class="flex items-center space-x-3">
+        <img src="./assets/images/UOL-Logo-Emblem-Green-1536x1450.png" class="h-10" alt="University of Lahore Logo" />
+        <span class="text-2xl font-semibold myfont">University of Lahore</span>
+      </a>
+      <div class="flex md:order-2 space-x-4">
+        <a href="./Apply Now.html"
+          class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg">Apply Now</a>
+        <a href="./contact.html"
+          class="bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 text-gray-800 dark:text-white px-4 py-2 rounded-lg">Contact</a>
+      </div>
+      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        <ul
+          class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-800 dark:border-gray-700">
+          <li><a href="./index.html" class="block py-2 px-3 hover:text-blue-600">Research</a></li>
+          <li><a href="./about.html" class="block py-2 px-3 hover:text-blue-600">News</a></li>
+          <li><a href="./contact.html" class="block py-2 px-3 hover:text-blue-600">Academics</a></li>
+          <li><a href="./index.html" class="block py-2 px-3 hover:text-blue-600">International Life</a></li>
+          <li><a href="./index.html" class="block py-2 px-3 hover:text-blue-600">Campus Life</a></li>
+          <li><a href="./index.html" class="block py-2 px-3 hover:text-blue-600">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section
+    class="bg-gradient-to-r from-green-600 via-emerald-500 to-blue-600 text-white pt-32 pb-20 flex flex-col items-center px-6">
+    <h1 class="text-5xl font-medium mb-6 animate-pulse text-center">Get in Touch with UOL</h1>
+    <p class="text-lg text-center max-w-2xl mb-10 leading-relaxed">
+      We’re here to answer your questions about admissions, programs, and life at the University of Lahore.
+    </p>
+
+    <div class="bg-white text-gray-800 dark:bg-gray-800 dark:text-white rounded-2xl shadow-xl p-8 max-w-4xl w-full grid md:grid-cols-2 gap-10">
+
+      <!-- Contact Form -->
+      <form class="space-y-4">
+        <div>
+          <label for="name" class="block mb-1 font-medium">Full Name</label>
+          <input type="text" id="name" name="name" required
+            class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 focus:ring-2 focus:ring-blue-500 outline-none">
+        </div>
+
+        <div>
+          <label for="email" class="block mb-1 font-medium">Email</label>
+          <input type="email" id="email" name="email" required
+            class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 focus:ring-2 focus:ring-blue-500 outline-none">
+        </div>
+
+        <div>
+          <label for="message" class="block mb-1 font-medium">Message</label>
+          <textarea id="message" name="message" rows="4" required
+            class="w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 focus:ring-2 focus:ring-blue-500 outline-none"></textarea>
+        </div>
+
+        <button type="submit"
+          class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg shadow-md transition w-full">
+          Send Message
+        </button>
+      </form>
+
+      <!-- Contact Info -->
+      <div class="space-y-6">
+        <h2 class="text-2xl font-semibold mb-4">Contact Information</h2>
+        <p><strong>📍 Address:</strong><br> 1-KM Defense Road, Off Raiwind Road, Lahore, Pakistan</p>
+        <p><strong>📞 Phone:</strong><br> +92 42 111-865-865</p>
+        <p><strong>✉️ Email:</strong><br> info@uol.edu.pk</p>
+        <p><strong>🕒 Office Hours:</strong><br> Monday - Friday: 9:00 AM - 5:00 PM</p>
+        <div class="flex space-x-4 mt-4">
+          <a href="#" class="hover:text-blue-400">🌐 Facebook</a>
+          <a href="#" class="hover:text-blue-400">🐦 Twitter</a>
+          <a href="#" class="hover:text-blue-400">📸 Instagram</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-6 mt-10">
+    <p>Powered by Nutella © 2025. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+
+</html>
